@@ -4,62 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
+
   <body>
     <header>
-      <p>Grandes ofertas en comederos</p>
-      <ul>
-        <li>Español</li>
-        <li>Arg</li>
-      </ul>
-
-      <h1>
-        <img class="logo" src="images/Logo.png" alt="FrontCat&Dog" />
-      </h1>
-      <nav>
-        <ul>
-          <li>Categorias</li>
-          <li>Pets</li>
-          <li>Nosotros</li>
-          <li>Contactenos</li>
+      <section class="header-container-top">
+        <p>Grandes ofertas en comederos</p>
+        <ul class="header-lista">
+          <li>Español</li>
+          <li>$ARG</li>
         </ul>
-      </nav>
+      </section>
+      <section class="header-container-bottom">
+        <p class="logo-base">
+          <img src="img/Cat.png" alt="gato" />
+          <span class="logo-first">Front</span>
+          Cat&Dog
+          <img src="img/Dog.png" alt="perro" />
+        </p>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <img src="img/pawprint.png" alt="huella" /><span>Categorías</span>
+            </li>
+            <li><img src="img/pawprint.png" alt="huella" /><span>Pets</span></li>
+            <li><img src="img/pawprint.png" alt="huella" /><span>Nosotros</span></li>
+            <li>
+              <img src="img/pawprint.png" alt="huella" /><span>Contactanos</span>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
     <main>
-      <a href=""></a>
-      <section class="banner">
-        <img
-          src="images/bowl-and-pet-daities-on-green-background 1.png"
-          alt="Background"
-        />
-        <p>¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <p>COMEDEROS</p>
+      <section class="main-banner">
+        <h2>¡Es un placer tenerte aquí!</h2>
+        <h4>¡Comederos en descuento!</h4>
+        <h5>COMEDEROS</h5>
       </section>
 
-      <section class="productos">
-        <img src="images/pawprint 1.png" alt="Imagen patita" />
+      <section class="main-productos-destacados">
+        <img src="img/pawprint 1.png" alt="patita" />
         <h2>Productos Destacados</h2>
-        <p>Comederos - Accesorios - Comida</p>
-
-        <img class="producto1" src="images/churrasquito.png" alt="Churrasquito" />
+        <h5>Comederos - Accesorios - Comida</h5>
+        </section>
+        
+        <section class="main-productos">
+        <img
+          class="producto1"
+          src="img/churrasquito.png"
+          alt="Churrasquito"
+        />
         <p>Juguete Churrasquito</p>
         <p>$150</p>
 
-        <img class="producto2" src="images/comedero.png" alt="Comedero" />
+        <img class="producto2" src="img/comedero.png" alt="Comedero" />
         <p>Comedero para perro</p>
         <p>$250</p>
 
-        <img class="producto2" src="images/Huesito.png" alt="Huesito" />
+        <img class="producto2" src="img/Huesito.png" alt="Huesito" />
         <p>Juguete Huesito</p>
         <p>$650</p>
-      
-    </section>
+      </section>
+
+      <section class="main-suscription">
+        <p><img src="img/enviar-correo 1.png" alt="correo" />
+        Suscríbete para más novedades</p>
+      </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+      <section class="footer-contact">
+      <ul>
+        <li><img src="img/ubicacion.png" alt="ubicacion" /><span>Localidad</span></li>
+        <li><img src="img/telefono.png" alt="telefono" /><span>Telefono</span></li>
+        <li><img src="img/correo.png" alt="correo" /><span>Correo Electónico</span></li>
+      </ul>
+      <p class="logo-base">
+        <img src="img/Cat.png" alt="gato" />
+        <span class="logo-first">Front</span>
+        Cat&Dog
+        <img src="img/Dog.png" alt="perro" />
+      </p>
+    </section>
+    <section class="footer-end">
+      <p>Todos los derechos reservados Front End</p>
+    </section>
+      
     </footer>
   </body>
 </html>
