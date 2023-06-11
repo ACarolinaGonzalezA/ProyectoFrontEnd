@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
 
   <body>
     <header>
       <section class="header-container-top">
-        <p>Grandes ofertas en comederos</p>
-        <ul class="header-lista">
-          <li>Español</li>
-          <li>$ARG</li>
-        </ul>
+        <div>
+          <p>Grandes ofertas en comederos</p>
+        </div>
+        <nav class="header-lista">
+          <ul>
+            <li>
+              <span>Español</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li>
+              <span>ARG$</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </li>
+          </ul>
+        </nav>
       </section>
+
       <section class="header-container-bottom">
-        <p class="logo-base">
+        <div class="logo-base">
+        <p>
           <img src="img/Cat.png" alt="gato" />
-          <span class="logo-first">Front</span>
-          Cat&Dog
+          <span class="logo-uno">Front</span>
+          <span>Cat&Dog</span>
           <img src="img/Dog.png" alt="perro" />
         </p>
+      </div>
         <nav>
           <ul class="nav-links">
             <li>
               <img src="img/pawprint.png" alt="huella" /><span>Categorías</span>
             </li>
-            <li><img src="img/pawprint.png" alt="huella" /><span>Pets</span></li>
-            <li><img src="img/pawprint.png" alt="huella" /><span>Nosotros</span></li>
             <li>
-              <img src="img/pawprint.png" alt="huella" /><span>Contactanos</span>
+              <img src="img/pawprint.png" alt="huella" /><span>Pets</span>
+            </li>
+            <li>
+              <img src="img/pawprint.png" alt="huella" /><span>Nosotros</span>
+            </li>
+            <li>
+              <img src="img/pawprint.png" alt="huella" /><span
+                >Contactanos</span>
             </li>
           </ul>
         </nav>
@@ -41,58 +63,110 @@
 
     <main>
       <section class="main-banner">
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <h4>¡Comederos en descuento!</h4>
-        <h5>COMEDEROS</h5>
+        <div>
+          <p>¡Es un placer tenerte aquí!</p>
+        </div>
+        <div>
+          <h4>¡Comederos en descuento!</h4>
+        </div>
+        <div>
+          <h5>COMEDEROS</h5>
+        </div>        
       </section>
 
       <section class="main-productos-destacados">
-        <img src="img/pawprint 1.png" alt="patita" />
-        <h2>Productos Destacados</h2>
-        <h5>Comederos - Accesorios - Comida</h5>
-        </section>
+        <div class="poductos-destacados-titulo">
+          <h2>Productos Destacados</h2>
+        </div>
+        <div class="productos-destacados-opciones">
+          <ul>
+            <li>Comederos</li>
+            <li>Accesorios</li>
+            <li>Comida</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main-productos">
+        <div>
+          <img class="producto1" src="img/churrasquito.png" alt="Churrasquito" />
+          <p>Juguete Churrasquito</p>
+          <h4>$150</h4>
+        </div>
         
-        <section class="main-productos">
-        <img
-          class="producto1"
-          src="img/churrasquito.png"
-          alt="Churrasquito"
-        />
-        <p>Juguete Churrasquito</p>
-        <p>$150</p>
-
-        <img class="producto2" src="img/comedero.png" alt="Comedero" />
+        <div>
+          <img class="producto2" src="img/comedero.png" alt="Comedero" />
         <p>Comedero para perro</p>
-        <p>$250</p>
+        <h4>$250</h4>
+        </div>
 
-        <img class="producto2" src="img/Huesito.png" alt="Huesito" />
+        <div>
+          <img class="producto2" src="img/Huesito.png" alt="Huesito" />
         <p>Juguete Huesito</p>
-        <p>$650</p>
+        <h4>$650</h4>
+        </div>        
       </section>
 
-      <section class="main-suscription">
-        <p><img src="img/enviar-correo 1.png" alt="correo" />
-        Suscríbete para más novedades</p>
-      </section>
+        <section class="main-suscription">
+          <article class="novedades">
+            <div>
+              <img src="../img/enviar-correo.png" alt="correo" /> 
+            </div>
+            <div>
+              <p>Suscríbete para más novedades</p>
+            </div>
+          </article>
+          <article class="suscripcion">
+              <div>
+                <input type="email" placeholder="Ingresa tu correo electrónico" class="input-correo">
+                <button class="boton-suscribir">Suscribirme</button>
+              </div>
+            </div>
+          </article>             
+        </section>
     </main>
+
     <footer>
       <section class="footer-contact">
-      <ul>
-        <li><img src="img/ubicacion.png" alt="ubicacion" /><span>Localidad</span></li>
-        <li><img src="img/telefono.png" alt="telefono" /><span>Telefono</span></li>
-        <li><img src="img/correo.png" alt="correo" /><span>Correo Electónico</span></li>
-      </ul>
-      <p class="logo-base">
-        <img src="img/Cat.png" alt="gato" />
-        <span class="logo-first">Front</span>
-        Cat&Dog
-        <img src="img/Dog.png" alt="perro" />
-      </p>
-    </section>
-    <section class="footer-end">
-      <p>Todos los derechos reservados Front End</p>
-    </section>
+        <article class="footer-datos">
+          <div>
+            <img src="img/ubicacion.png" alt="ubicacion"/>
+              <div class="localidad">
+              <h3>Localidad</h3>
+              <p>Calle - provincia</p>
+            </div>
+          </div>
+          <div>
+            <img src="img/telefono.png" alt="telefono"/>
+            <div class="telefono">
+              <h3>Telefono</h3>
+              <p>Número de téfono</p>
+            </div>
+          </div>
+          <div>
+            <img src="img/correo.png" alt="correo"/>
+            <div class="correo">
+              <h3>Correo Electónico</h3>  
+              <p>Dirección de correo</p>
+            </div>
+          </div>
+        </article>       
+
+        <article>
+          <div>
+            <p class="footer-logo-base">
+              <img src="img/Cat.png" alt="gato" />
+              <span class="logo-first">Front</span>
+              <span class="logo-tres">Cat&Dog</span>
+              <img src="img/Dog.png" alt="perro" />
+            </p>
+          </div> 
+        </article>
+      </section>
       
+      <section class="footer-end">
+        <h5>Todos los derechos reservados Front End</h5>
+      </section>
     </footer>
   </body>
 </html>
