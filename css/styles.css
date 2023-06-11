@@ -64,6 +64,10 @@
   margin-left: 10px;
 }
 
+.icono-mobile{
+  display: none;
+}
+
 .main-banner {
   background-color: white;
   background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
@@ -260,3 +264,52 @@ align-items: flex-start;
     justify-content: center;  
     align-items: center; 
   }
+
+  /*****Resposive***/
+
+@media screen and (max-width: 480px){
+  
+  .header-container-top{
+    display:none;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .icono-mobile{
+    display: block;
+  }
+
+  .main-banner p{
+    font-size: 25px;
+  }
+
+  .main-productos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-suscription{
+    display: flex;
+    flex-direction: column;
+  }
+  .novedades{
+    align-items: center;
+    padding: 0;
+  }
+.novedades p{
+  font-size: 20px;
+}
+
+.suscripcion {
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.footer-contact{
+  flex-direction: column-reverse;
+}
+
+}
